@@ -8,6 +8,7 @@ const loadTitle = () => {
   });
 };
 
+
 const printTitle = () => {
   loadTitle().then(title => {
     console.log(title);
